@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '4-)Z:~ntYn(aqpNl0u() {Jwl`hO#)W>(i}(WbfMSwJ=ADyCKs8a?dx|&M3,RtAf');
-define('SECURE_AUTH_KEY',  '^ 1abPW1yPW6n* :lDB.u6cM`XXj,;``^3pg6Me%1:?[e>P>!#QPT56e@,|53_kq');
-define('LOGGED_IN_KEY',    't:,_~D`I#cV<,/kTQDc?oP:uj?!~Tg`awED66q8ys&&<TQ kGyDqc-~Z2~)v$#{<');
-define('NONCE_KEY',        '> &v@L)&;&BnVFY$g}`.D?a+;w%ts 6btjq:_n|(&y|{<(axq=,4:V &At$`R7)W');
-define('AUTH_SALT',        'lo0~F>{Sp3:6Ua/zD#;?w:o6+n~LqQDAHp8beq8.nS{&G|7:W7M5A {<p&Ve ,2o');
-define('SECURE_AUTH_SALT', 'H,U~H;h9OFJeNa|Ua%8:nOXzQF_kKG+_q#1,8!/Tn1Ip.yX7uy7HZN;L}MzG@2$Q');
-define('LOGGED_IN_SALT',   'L}91_Q}yA3%Q877=4xGzV|xeuYTjK!hiBBVV CjWz6$MQ.]Teoa7OkfpHK$+x$>e');
-define('NONCE_SALT',       'Ww^PK6p3S>;lebAm8HNshY].?awFov4YS8<:wRMb&j_DE>FF|WY>G0/=c&=wa{Ka');
+define('AUTH_KEY',         'z=J=n^{!?JTfK=JQPD_~JE_jn1it+%6e~7EHtC!E^+7&`r%$~8puGhC>$3za JFE');
+define('SECURE_AUTH_KEY',  '9?Y*C<pTcB74lkl?U7Um*h}}twS6u2H@(~l/XJKD+t^PfnZmh(%FKF1X/]IF;+8^');
+define('LOGGED_IN_KEY',    'r|q.| A]S-moE!k@p(8:_pkz3X9&Fs@ks.=$xJ^L&{DzXrx4y~V FCP75GY:XUjj');
+define('NONCE_KEY',        'Sc| +e{eFJynb+`Q/h-~Q_2h+2A#j-3Zo|[Cd&gOiK.0SMf)DU%QdV9,oL1ZVS, ');
+define('AUTH_SALT',        '&2K~+e^Y~p`7=MA#FQKgKxduF+Lv/XD%{qQvap5*oZ+zX;skQ4^[B{qYJ#pxJ7pw');
+define('SECURE_AUTH_SALT', '[-S5JDtXD6<cEd-KRDSBv)S!U.L& +J`Fu+JmtJ{2(l-N2#0Xa|wV+8z(,VUb7|j');
+define('LOGGED_IN_SALT',   '0sh4JLmE8wIKR_If{#J]heS?1K}a:oZIT j/f@f^OxUqH ~raiPG+&lMbk4X~>x$');
+define('NONCE_SALT',       'J0+SF.v)+|Ro*`)F!aUK+ w{(!9nQAq@U2A>x{lmrx+|5z-xrGGdOCdpUwS7#FlW');
 
 /**#@-*/
 
@@ -77,7 +77,8 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
+define( 'DISALLOW_FILE_EDIT', true );
 
 /* That's all, stop editing! Happy blogging. */
 
